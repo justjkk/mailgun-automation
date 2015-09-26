@@ -9,10 +9,18 @@ Mailgun automation scripts
 
 ## Usage
 
-* source .credentials  # Sets the mailgun credentials as environment variables
+```bash
+source .credentials  # Sets the mailgun credentials as environment variables
+```
 
 ### Printing the bounce list
-* python get_bounces.py
+
+```bash
+python get_bounces.py
+```
 
 ### Clearing the bounce list
-* python get_bounces.py | python unbounce.py
+
+```bash
+python get_bounces.py | python unbounce.py
+```
